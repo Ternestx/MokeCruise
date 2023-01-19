@@ -8,7 +8,7 @@ Event(EventID, EventName, EventDescr, EventLoc, MinAge, MaxAge, EventCapacity, E
 
 EventSession([EventID], SessionNo, EventDateTime)
 
-Booking(BookingID, NoOfAdultTicket, NoOfChildTicket, AdultSalesPrice, ChildSalesPrice, BookStatus, BookDateTime, <PgrID>, <EventID, SessionNo>)
+Booking(BookingID, NoOfAdultTicket, NoOfChildTicket, AdultSalesPrice, ChildSalesPrice, BookStatus, BookDateTime, [PgrID], [EventID, SessionNo])
 
 Passenger(PgrID, PgrName, PgrEmail, PgrDOB, PgrGender, CabinNo)
 
